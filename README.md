@@ -3,9 +3,9 @@ Solidity coding challenges and interview questions
 
 ## Solidity screening questions
 
-1. Can you prove within transaction runtime that particular event with particular set of arguments has been emitted on the contract in the past? If yes, how (general concept).
+1. Can you prove that within transaction runtime, a particular event with particular set of arguments has been emitted on the contract in the past? If yes, how (general concept).
 
-2. Can you verify that the there is a contract deployed at some Ethereum address with specific bytecode within Ethereum transaction context (i.e. you want to make sure that there is the trusted contract you need at some address with some predefined source code and not some malicious code before calling it)?
+2. Can you verify that there is a contract deployed at some Ethereum address with specific bytecode within Ethereum transaction context (i.e. you want to make sure that there is the trusted contract you need at some address with some predefined source code and not some malicious code before calling it)?
 
 3. If your contract is calling some other contract’s function can this other contract’s function return a `struct` data structure and what are your options for it?
   
